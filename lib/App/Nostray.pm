@@ -1,6 +1,6 @@
 package App::Nostray;
 {
-  $App::Nostray::VERSION = '0.001'; # TRIAL
+  $App::Nostray::VERSION = '0.001';
 }
 
 use File::Next;

@@ -18,7 +18,6 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-Nostray",
   "EXE_FILES" => [
-    "bin/nostray.bak",
     "bin/nostray"
   ],
   "LICENSE" => "perl",

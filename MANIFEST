@@ -5,7 +5,6 @@ META.yml
 Makefile.PL
 README
 bin/nostray
-bin/nostray.bak
 dist.ini
 lib/App/Nostray.pm
 t/test.js
