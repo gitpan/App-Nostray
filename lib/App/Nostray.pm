@@ -1,8 +1,5 @@
 package App::Nostray;
-{
-  $App::Nostray::VERSION = '0.001';
-}
-
+$App::Nostray::VERSION = '0.002';
 use File::Next;
 use Getopt::Std;
 use JavaScript::V8;

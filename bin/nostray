@@ -10,7 +10,7 @@
 use File::Next;
 use Getopt::Std;
 use JavaScript::V8;
-use JSON::XS;
+use JSON;
 use File::Slurp;
 
 use vars qw($opt_v $opt_h $opt_m $opt_R);
@@ -80,7 +80,7 @@ sub auto_remove_extra_comma {
     $cx->bind( src => $src );
     my $reports = $cx->eval('jshint( src, { strict: false, es5: false } )');
     for my $report (@$reports) {
-        $opt_R && print JSON::XS->new->pretty->canonical->encode($report);
+        $opt_R && print JSON->new->pretty->canonical->encode($report);
         if ( $report->{reason} eq "Extra comma." ) {
             substr $src->[ $report->{line} - 1 ], $report->{character} - 1, 1, '';
             $xtra++;
