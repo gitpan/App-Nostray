@@ -26,11 +26,10 @@ my %WriteMakefileArgs = (
     "File::Slurp" => 0,
     "Getopt::Std" => 0,
     "JSON" => 0,
-    "JSON::XS" => 0,
     "JavaScript::V8" => 0,
     "vars" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,7 +41,6 @@ my %FallbackPrereqs = (
   "File::Slurp" => 0,
   "Getopt::Std" => 0,
   "JSON" => 0,
-  "JSON::XS" => 0,
   "JavaScript::V8" => 0,
   "vars" => 0
 );

@@ -1,9 +1,9 @@
 package App::Nostray;
-$App::Nostray::VERSION = '0.002';
+$App::Nostray::VERSION = '0.003';
 use File::Next;
 use Getopt::Std;
 use JavaScript::V8;
-use JSON::XS;
+use JSON;
 use File::Slurp;
 
 =head1 NAME
