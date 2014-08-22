@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     "JavaScript::V8" => 0,
     "vars" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "1.00",
   "test" => {
     "TESTS" => "t/*.t"
   }

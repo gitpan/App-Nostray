@@ -1,5 +1,8 @@
 Revision history for App::Nostray
 
+1.00   2014-08-22
+       - bump version to 1.00
+       
 0.003   2014-08-16
        - dropped dependency on JSON::XS, take two
 
